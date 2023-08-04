@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    overflow: hidden;
+    background-color: #0065c3;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+}
+ul{
+    margin: auto;
+    margin-left: 60%;
+}
+li{
+    font-size: 17px;
+    display: inline;
+    padding: 10px 15px;
+    font-weight: 400;
+    color: white;
+    font-family: 'Gotham medium',sans-serif;
+}
+nav img{
+    width: 60px;
+    margin: 5px 40px;
+    transition: 1s all ease-in-out;
+}
+nav img:hover{
+    transform: rotate(-360deg);
+}
+.circle{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0065c3;
+    z-index: -21;
+    clip-path: circle(600px at right 800px);
+}
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about_Sec{
+    width: 60%;
+    height: 500px;
+}
+.head1{
+    margin-top: 50px;
+    margin-left: 150px;
+    font-size: 130px;
+    font-weight: 500;
+    line-height: 110px;
+    color: white;
+    font-family: 'Gotham black',sans-serif;
+}
+.head2{
+    margin-left: 150px;
+    font-size: 45px;
+    font-weight: 500;
+    color: WHITE;
+    font-family: 'Gotham Medium',sans-serif;
+}
+.head2 span{
+    font-size: 60px;
+    color: white;
+    font-family: 'Gotham Black',sans-serif;
+}
+p{
+    margin-top: 10px;
+    font-size: 18px;
+    margin-left: 150px;
+    margin-right: 140px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+button{
+    font-size: 17px;
+    font-weight: 900;
+    color: white;
+    display: block;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 5px 25px;
+    margin: 15px 0px 15px 150px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.new_coffee{
+    width: 35px;
+    display: inline;
+    margin: 10px;
+}
+#img1{
+    margin-left: 300px;
+}
+
+/* -------------------- */
+.img{
+    width: 500px;
+}
+.coffee{
+    width: 500px;
+    height: 500px;
+    margin-top: 36px;
+    float: right;
+    overflow:visible;
+    transition: 0.2s linear;
+}
+.coffee:hover{
+    transform: scale(105%);
+}
+/* .social{
+    width: 10%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} */
+.social img{
+    width: 20px;
+    filter: invert();
+    margin: 10px;
+}
+
+/* --------scroll bar ---------*/
+
+body::-webkit-scrollbar {
+    width: 0px;
+  }
+   
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+   
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 255, 255);
+    outline: 1px solid rgb(255, 255, 255);
+}
